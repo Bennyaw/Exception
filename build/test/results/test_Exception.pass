@@ -1,0 +1,25 @@
+---
+:source:
+  :path: test
+  :file: test_Exception.c
+:successes:
+- :test: test_getNameInCompany_given_company1_people2_expect_Slokovac
+  :line: 96
+  :message: ''
+- :test: test_getName_given_1_expect_David
+  :line: 116
+  :message: ''
+- :test: test_getName_given_minus_1_expect_ERR_OUT_OF_BOUND
+  :line: 134
+  :message: ''
+- :test: test_getName_given_4_expect_ERR_OUT_OF_BOUND
+  :line: 151
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 4
+  :passed: 4
+  :failed: 0
+  :ignored: 0
+:stdout: []
